@@ -26,11 +26,28 @@ Live progress on the next djehuty releases — full detail on the
 
 <!-- MILESTONES:START -->
 <details open>
-<summary><b>v26.5</b> &nbsp;·&nbsp; due 2026-08-31 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 2 done</summary>
+<summary><b>v24.4.1</b> &nbsp;·&nbsp; due 2026-08-07 &nbsp;·&nbsp; <code>██████████</code> 100% &nbsp;·&nbsp; 3 of 3 done</summary>
 
-- [ ] [#000](https://github.com/4TUResearchData/djehuty/issues) Placeholder — the first workflow run replaces this with real issue titles.
+- [x] [#231](https://github.com/4TUResearchData/djehuty/issues/231) \[BUG\]: Remove ROR link from institution name
+- [x] [#229](https://github.com/4TUResearchData/djehuty/issues/229) \[BUG\]: Author names created from SAML login include the login name in brackets
+- [x] [#218](https://github.com/4TUResearchData/djehuty/issues/218) \[BUG\]: COLLECT button adds the dataset to the wrong collection (always the last one in the list)
 
 </details>
+
+<details>
+<summary><b>v26.5</b> &nbsp;·&nbsp; due 2026-08-31 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 1 done</summary>
+
+- [ ] [#237](https://github.com/4TUResearchData/djehuty/issues/237) \[NEW FEATURE\]: Support custom-style in Djehuty
+
+</details>
+
+<details>
+<summary><b>v26.6</b> &nbsp;·&nbsp; due 2026-09-30 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 1 done</summary>
+
+- [ ] [#41](https://github.com/4TUResearchData/djehuty/issues/41) Enable registration of physical samples (IGSNs)
+
+</details>
+
 <!-- MILESTONES:END -->
 <!--
   The table above is regenerated daily by .github/workflows/update-milestones.yml.
