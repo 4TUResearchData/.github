@@ -3,7 +3,7 @@ name: Refresh milestones on the org profile
 on:
   schedule:
     - cron: "0 6 * * *"   # daily at 06:00 UTC
-  workflow_dispatch:       # lets you run it manually from the Actions tab
+  workflow_dispatch:       # run manually from the Actions tab
 
 permissions:
   contents: write
@@ -13,33 +13,67 @@ jobs:
     runs-on: ubuntu-latest
     env:
       SOURCE_REPO: 4TUResearchData/djehuty
+      MAX_ISSUES: 12        # per milestone, before an overflow link is shown
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build the milestone table
+      - name: Build the milestone sections
         run: |
-          {
-            echo "<!-- MILESTONES:START -->"
-            echo "| Milestone | Due | Progress | Issues |"
-            echo "|---|---|---|---|"
-            gh api "repos/$SOURCE_REPO/milestones?state=open&sort=due_on&direction=asc" \
-              --jq '.[] | [.title, .number,
-                           (if .due_on == null then "—" else .due_on[0:10] end),
-                           .open_issues, .closed_issues] | @tsv' \
-            | while IFS=$'\t' read -r title number due open closed; do
-                total=$(( open + closed ))
-                if [ "$total" -eq 0 ]; then pct=0; else pct=$(( closed * 100 / total )); fi
-                filled=$(( pct / 10 ))
-                bar=""
-                for i in $(seq 1 10); do
-                  if [ "$i" -le "$filled" ]; then bar="${bar}█"; else bar="${bar}░"; fi
-                done
-                echo "| [\`$title\`](https://github.com/$SOURCE_REPO/milestone/$number) | $due | \`$bar\` ${pct}% | $closed / $total |"
+          set -euo pipefail
+          exec 3>milestones.md
+          echo "<!-- MILESTONES:START -->" >&3
+
+          first=1
+          gh api "repos/$SOURCE_REPO/milestones?state=open&sort=due_on&direction=asc" \
+            --jq '.[] | [.title, .number,
+                         (if .due_on == null then "no due date" else .due_on[0:10] end),
+                         (.description // "")] | @tsv' \
+          | while IFS=$'\t' read -r title number due description; do
+
+              # Issues in this milestone, pull requests excluded.
+              gh api --paginate \
+                "repos/$SOURCE_REPO/issues?milestone=$number&state=all&per_page=100" \
+                --jq '.[] | select(.pull_request == null)
+                          | [.number, .state, .title] | @tsv' > issues.tsv
+
+              total=$(wc -l < issues.tsv)
+              closed=$(awk -F'\t' '$2=="closed"' issues.tsv | wc -l)
+              if [ "$total" -eq 0 ]; then pct=0; else pct=$(( closed * 100 / total )); fi
+
+              bar=""
+              for i in $(seq 1 10); do
+                if [ "$i" -le $(( pct / 10 )) ]; then bar="${bar}█"; else bar="${bar}░"; fi
               done
-            echo "<!-- MILESTONES:END -->"
-          } > milestones.md
+
+              # Expand the nearest-due milestone by default, collapse the rest.
+              if [ "$first" -eq 1 ]; then attr=" open"; first=0; else attr=""; fi
+
+              {
+                echo "<details${attr}>"
+                echo "<summary><b>${title}</b> &nbsp;·&nbsp; due ${due} &nbsp;·&nbsp; <code>${bar}</code> ${pct}% &nbsp;·&nbsp; ${closed} of ${total} done</summary>"
+                echo
+                [ -n "$description" ] && { echo "${description}"; echo; }
+              } >&3
+
+              head -n "$MAX_ISSUES" issues.tsv \
+              | while IFS=$'\t' read -r inum istate ititle; do
+                  # Escape brackets so issue titles can't break the link markup.
+                  safe=$(printf '%s' "$ititle" | sed 's/[][]/\\&/g')
+                  if [ "$istate" = "closed" ]; then box="x"; else box=" "; fi
+                  echo "- [$box] [#${inum}](https://github.com/$SOURCE_REPO/issues/${inum}) ${safe}"
+                done >&3
+
+              if [ "$total" -gt "$MAX_ISSUES" ]; then
+                echo "- … [$(( total - MAX_ISSUES )) more](https://github.com/$SOURCE_REPO/milestone/${number})" >&3
+              fi
+
+              { echo; echo "</details>"; echo; } >&3
+            done
+
+          echo "<!-- MILESTONES:END -->" >&3
+          exec 3>&-
           cat milestones.md
 
       - name: Splice it into profile/README.md
@@ -47,11 +81,11 @@ jobs:
           python3 - <<'PY'
           import pathlib, re
           readme = pathlib.Path("profile/README.md")
-          table = pathlib.Path("milestones.md").read_text().strip()
+          block = pathlib.Path("milestones.md").read_text().strip()
           body = readme.read_text()
           new = re.sub(
               r"<!-- MILESTONES:START -->.*?<!-- MILESTONES:END -->",
-              lambda _: table,          # lambda avoids backslash escaping surprises
+              lambda _: block,          # lambda avoids backslash-escaping surprises
               body,
               flags=re.S,
           )
@@ -62,9 +96,9 @@ jobs:
 
       - name: Commit if anything changed
         run: |
-          rm -f milestones.md
+          rm -f milestones.md issues.tsv
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/README.md
-          git diff --staged --quiet || git commit -m "chore: refresh milestone table"
+          git diff --staged --quiet || git commit -m "chore: refresh milestone roadmap"
           git push
