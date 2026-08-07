@@ -1,0 +1,70 @@
+name: Refresh milestones on the org profile
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily at 06:00 UTC
+  workflow_dispatch:       # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      SOURCE_REPO: 4TUResearchData/djehuty
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build the milestone table
+        run: |
+          {
+            echo "<!-- MILESTONES:START -->"
+            echo "| Milestone | Due | Progress | Issues |"
+            echo "|---|---|---|---|"
+            gh api "repos/$SOURCE_REPO/milestones?state=open&sort=due_on&direction=asc" \
+              --jq '.[] | [.title, .number,
+                           (if .due_on == null then "—" else .due_on[0:10] end),
+                           .open_issues, .closed_issues] | @tsv' \
+            | while IFS=$'\t' read -r title number due open closed; do
+                total=$(( open + closed ))
+                if [ "$total" -eq 0 ]; then pct=0; else pct=$(( closed * 100 / total )); fi
+                filled=$(( pct / 10 ))
+                bar=""
+                for i in $(seq 1 10); do
+                  if [ "$i" -le "$filled" ]; then bar="${bar}█"; else bar="${bar}░"; fi
+                done
+                echo "| [\`$title\`](https://github.com/$SOURCE_REPO/milestone/$number) | $due | \`$bar\` ${pct}% | $closed / $total |"
+              done
+            echo "<!-- MILESTONES:END -->"
+          } > milestones.md
+          cat milestones.md
+
+      - name: Splice it into profile/README.md
+        run: |
+          python3 - <<'PY'
+          import pathlib, re
+          readme = pathlib.Path("profile/README.md")
+          table = pathlib.Path("milestones.md").read_text().strip()
+          body = readme.read_text()
+          new = re.sub(
+              r"<!-- MILESTONES:START -->.*?<!-- MILESTONES:END -->",
+              lambda _: table,          # lambda avoids backslash escaping surprises
+              body,
+              flags=re.S,
+          )
+          if new == body:
+              print("No change.")
+          readme.write_text(new)
+          PY
+
+      - name: Commit if anything changed
+        run: |
+          rm -f milestones.md
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git diff --staged --quiet || git commit -m "chore: refresh milestone table"
+          git push
