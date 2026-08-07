@@ -1,11 +1,5 @@
 <div align="center">
 
-<!-- Optional: swap in a real logo. Two files let you support light + dark mode. -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/4TUResearchData/.github/main/profile/assets/logo-dark.png">
-  <img alt="4TU.ResearchData" src="https://raw.githubusercontent.com/4TUResearchData/.github/main/profile/assets/logo-light.png" height="80">
-</picture>
-
 ### 4TU.ResearchData
 
 **Open research data infrastructure for science, engineering and design.**
