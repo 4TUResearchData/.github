@@ -70,7 +70,7 @@ gantt
 ## Getting involved
 
 - **Report a bug or request a feature** — open an issue on the relevant repository.
-- **Good first issues** — [browse them here](https://github.com/4TUResearchData/djehuty/issues?q=is%3Aopen+label%3A%22good+first+issue%22).
+- **Good first issues** — [browse them here](https://github.com/4TUResearchData/djehuty/issues?q=is%3Aopen+label%3A%22🌱+good+first+issue%22).
 - **Security** — report vulnerabilities privately to <security@djehuty.4tu.nl>, not via a public issue. See our [security policy](https://github.com/4TUResearchData/djehuty/blob/main/SECURITY.md).
 - **Governance** — how decisions get made is documented in [GOVERNANCE.md](https://github.com/4TUResearchData/djehuty/blob/main/GOVERNANCE.md).
 
