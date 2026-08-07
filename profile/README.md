@@ -1,10 +1,12 @@
 <div align="center">
 
+<img src="https://avatars.githubusercontent.com/u/20555359?s=200&v=4" alt="4TU.ResearchData" height="90">
+
 ### 4TU.ResearchData
 
 **Open research data infrastructure for science, engineering and design.**
 
-[Website](https://data.4tu.nl) · [Documentation](https://djehuty.4tu.nl) · [Contributing](https://github.com/4TUResearchData/.github/blob/main/CONTRIBUTING.md)
+[Website](https://data.4tu.nl) · [djehuty docs](https://djehuty.4tu.nl) · [Contributing](https://github.com/4TUResearchData/.github/blob/main/CONTRIBUTING.md) · [Code of conduct](https://github.com/4TUResearchData/.github/blob/main/CODE_OF_CONDUCT.md)
 
 </div>
 
@@ -12,52 +14,39 @@
 
 ## What we build
 
-| Project | What it is | Status |
+| Project | What it is | |
 |---|---|---|
-| **[djehuty](https://github.com/4TUResearchData/djehuty)** | The repository system powering 4TU.ResearchData and Nikhef | [![Release](https://img.shields.io/github/v/release/4TUResearchData/djehuty?label=&color=0a7bbb)](https://github.com/4TUResearchData/djehuty/releases) [![License](https://img.shields.io/github/license/4TUResearchData/djehuty?label=)](https://github.com/4TUResearchData/djehuty/blob/main/COPYING) |
-
-<!-- Add further repositories as rows here. -->
-
+| **[djehuty](https://github.com/4TUResearchData/djehuty)** | The repository system powering 4TU.ResearchData and Nikhef | [![Release](https://img.shields.io/github/v/release/4TUResearchData/djehuty?label=&color=0a7bbb)](https://github.com/4TUResearchData/djehuty/releases) |
 ---
 
 ## Roadmap
 
-Live progress on the next djehuty releases. Full detail on the
+Live progress on the next djehuty releases — full detail on the
 **[milestones board →](https://github.com/4TUResearchData/djehuty/milestones)**
 
 <!-- MILESTONES:START -->
-| Milestone | Due | Progress | Issues |
-|---|---|---|---|
-| [`v24.4.1`](https://github.com/4TUResearchData/djehuty/milestone/1) | 2026-08-07 | `██████████` 100% | 4 / 4 |
-| [`v26.5`](https://github.com/4TUResearchData/djehuty/milestone/2) | 2026-08-31 | `░░░░░░░░░░` 0% | 0 / 2 |
-| [`v26.6`](https://github.com/4TUResearchData/djehuty/milestone/3) | 2026-09-30 | `░░░░░░░░░░` 0% | 0 / 1 |
+<details open>
+<summary><b>v26.5</b> &nbsp;·&nbsp; due 2026-08-31 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 2 done</summary>
+
+- [ ] [#000](https://github.com/4TUResearchData/djehuty/issues) Placeholder — the first workflow run replaces this with real issue titles.
+
+</details>
 <!-- MILESTONES:END -->
-
-<sub>Table refreshed daily by [`update-milestones.yml`](https://github.com/4TUResearchData/.github/blob/main/.github/workflows/update-milestones.yml). Do not edit between the markers by hand.</sub>
-
-### Timeline
+<!--
+  The table above is regenerated daily by .github/workflows/update-milestones.yml.
+  Anything you type between the MILESTONES markers will be overwritten.
+-->
 
 ```mermaid
 gantt
     title djehuty release milestones
     dateFormat  YYYY-MM-DD
     axisFormat  %b %Y
-    section Shipped
-    v24.4.1        :done,   m1, 2026-07-01, 2026-08-07
     section In progress
     v26.5          :active, m2, 2026-08-07, 2026-08-31
     section Planned
     v26.6          :        m3, 2026-09-01, 2026-09-30
 ```
-
-### Live badges (alternative to the table)
-
-Badges update themselves with no workflow at all — the number at the end is the
-milestone number from its URL.
-
-[![v26.5](https://img.shields.io/github/milestones/progress-percent/4TUResearchData/djehuty/2?label=v26.5&color=0a7bbb)](https://github.com/4TUResearchData/djehuty/milestone/2)
-[![v26.6](https://img.shields.io/github/milestones/progress-percent/4TUResearchData/djehuty/3?label=v26.6&color=0a7bbb)](https://github.com/4TUResearchData/djehuty/milestone/3)
-[![Open milestones](https://img.shields.io/github/milestones/open/4TUResearchData/djehuty?label=open%20milestones&color=555)](https://github.com/4TUResearchData/djehuty/milestones)
 
 ---
 
@@ -65,7 +54,8 @@ milestone number from its URL.
 
 - **Report a bug or request a feature** — open an issue on the relevant repository.
 - **Good first issues** — [browse them here](https://github.com/4TUResearchData/djehuty/issues?q=is%3Aopen+label%3A%22good+first+issue%22).
-- **Security** — please report vulnerabilities privately via our [security policy](https://github.com/4TUResearchData/.github/security/policy).
+- **Security** — report vulnerabilities privately to <djehuty@4tu.nl>, not via a public issue. See our [security policy](https://github.com/4TUResearchData/djehuty/blob/main/SECURITY.md).
+- **Governance** — how decisions get made is documented in [GOVERNANCE.md](https://github.com/4TUResearchData/djehuty/blob/main/GOVERNANCE.md).
 
 <div align="center">
 <sub>4TU.ResearchData is the data repository of the four Dutch universities of technology.</sub>
