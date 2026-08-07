@@ -28,6 +28,7 @@ Live progress on the next djehuty releases. Full detail on the
 <!-- MILESTONES:START -->
 | Milestone | Due | Progress | Issues |
 |---|---|---|---|
+| [`v24.4.1`](https://github.com/4TUResearchData/djehuty/milestone/1) | 2026-08-07 | `██████████` 100% | 4 / 4 |
 | [`v26.5`](https://github.com/4TUResearchData/djehuty/milestone/2) | 2026-08-31 | `░░░░░░░░░░` 0% | 0 / 2 |
 | [`v26.6`](https://github.com/4TUResearchData/djehuty/milestone/3) | 2026-09-30 | `░░░░░░░░░░` 0% | 0 / 1 |
 <!-- MILESTONES:END -->
