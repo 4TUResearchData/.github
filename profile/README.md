@@ -75,5 +75,5 @@ gantt
 - **Governance** — how decisions get made is documented in [GOVERNANCE.md](https://github.com/4TUResearchData/djehuty/blob/main/GOVERNANCE.md).
 
 <div align="center">
-<sub>4TU.ResearchData is a research infrastructure, community and training provider whose mission is to enable researchers from science, engineering and design disciplines to make a global impact with research data and software. It is led and governed by the four technical universities in the Netherlands.</sub>
+<sub>4TU.ResearchData is a research infrastructure, community and training provider, led and governed by the four technical universities in the Netherlands.</sub>
 </div>
