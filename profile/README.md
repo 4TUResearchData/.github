@@ -71,9 +71,9 @@ gantt
 
 - **Report a bug or request a feature** — open an issue on the relevant repository.
 - **Good first issues** — [browse them here](https://github.com/4TUResearchData/djehuty/issues?q=is%3Aopen+label%3A%22good+first+issue%22).
-- **Security** — report vulnerabilities privately to <djehuty@4tu.nl>, not via a public issue. See our [security policy](https://github.com/4TUResearchData/djehuty/blob/main/SECURITY.md).
+- **Security** — report vulnerabilities privately to <security@djehuty.4tu.nl>, not via a public issue. See our [security policy](https://github.com/4TUResearchData/djehuty/blob/main/SECURITY.md).
 - **Governance** — how decisions get made is documented in [GOVERNANCE.md](https://github.com/4TUResearchData/djehuty/blob/main/GOVERNANCE.md).
 
 <div align="center">
-<sub>4TU.ResearchData is the data repository of the four Dutch universities of technology.</sub>
+<sub>4TU.ResearchData is a research infrastructure, community and training provider whose mission is to enable researchers from science, engineering and design disciplines to make a global impact with research data and software. It is led and governed by the four technical universities in the Netherlands.</sub>
 </div>
