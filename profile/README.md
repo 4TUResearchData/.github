@@ -35,8 +35,9 @@ Live progress on the next djehuty releases — full detail on the
 </details>
 
 <details>
-<summary><b>v26.5</b> &nbsp;·&nbsp; due 2026-08-31 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 3 done</summary>
+<summary><b>v26.5</b> &nbsp;·&nbsp; due 2026-08-31 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 4 done</summary>
 
+- [ ] [#258](https://github.com/4TUResearchData/djehuty/issues/258) \[IMPROVEMENT\]: Make draft dataset deletion recoverable (soft delete)
 - [ ] [#252](https://github.com/4TUResearchData/djehuty/issues/252) \[DOCUMENTATION\]: OpenAPI for /api/v2 and /api/v3
 - [ ] [#237](https://github.com/4TUResearchData/djehuty/issues/237) \[NEW FEATURE\]: Support custom-style in Djehuty
 - [ ] [#165](https://github.com/4TUResearchData/djehuty/issues/165) \[IMPROVEMENT\]: Metadata form: require a minimum number of keywords
