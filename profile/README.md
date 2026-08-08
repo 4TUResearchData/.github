@@ -26,15 +26,6 @@ Live progress on the next djehuty releases — full detail on the
 
 <!-- MILESTONES:START -->
 <details open>
-<summary><b>v24.4.1</b> &nbsp;·&nbsp; due 2026-08-07 &nbsp;·&nbsp; <code>██████████</code> 100% &nbsp;·&nbsp; 3 of 3 done</summary>
-
-- [x] [#231](https://github.com/4TUResearchData/djehuty/issues/231) \[BUG\]: Remove ROR link from institution name
-- [x] [#229](https://github.com/4TUResearchData/djehuty/issues/229) \[BUG\]: Author names created from SAML login include the login name in brackets
-- [x] [#218](https://github.com/4TUResearchData/djehuty/issues/218) \[BUG\]: COLLECT button adds the dataset to the wrong collection (always the last one in the list)
-
-</details>
-
-<details>
 <summary><b>v26.5</b> &nbsp;·&nbsp; due 2026-08-31 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 4 done</summary>
 
 - [ ] [#258](https://github.com/4TUResearchData/djehuty/issues/258) \[IMPROVEMENT\]: Make draft dataset deletion recoverable (soft delete)
