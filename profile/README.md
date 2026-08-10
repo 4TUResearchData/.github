@@ -6,7 +6,7 @@
 
 **Open research data infrastructure for science, engineering and design.**
 
-[Website](https://data.4tu.nl) · [djehuty docs](https://djehuty.4tu.nl) · [Contributing](https://github.com/4TUResearchData/.github/blob/main/CONTRIBUTING.md) · [Code of conduct](https://github.com/4TUResearchData/.github/blob/main/CODE_OF_CONDUCT.md)
+[Website](https://data.4tu.nl) · [djehuty docs](https://djehuty.4tu.nl) · [Contributing](https://github.com/4TUResearchData/djehuty/blob/main/CONTRIBUTING.md) · [Code of conduct](https://github.com/4TUResearchData/djehuty/blob/main/CODE_OF_CONDUCT.md)
 
 </div>
 
