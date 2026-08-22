@@ -36,8 +36,9 @@ Live progress on the next djehuty releases — full detail on the
 </details>
 
 <details>
-<summary><b>v26.6</b> &nbsp;·&nbsp; due 2026-09-30 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 1 done</summary>
+<summary><b>v26.6</b> &nbsp;·&nbsp; due 2026-09-30 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 2 done</summary>
 
+- [ ] [#278](https://github.com/4TUResearchData/djehuty/issues/278) \[IMPROVEMENT\]: add COLLECT button to the physical sample landing page
 - [ ] [#41](https://github.com/4TUResearchData/djehuty/issues/41) \[NEW FEATURE\] Enable registration of physical samples (IGSNs)
 
 </details>
