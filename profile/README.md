@@ -26,11 +26,11 @@ Live progress on the next djehuty releases — full detail on the
 
 <!-- MILESTONES:START -->
 <details open>
-<summary><b>v26.5</b> &nbsp;·&nbsp; due 2026-08-31 &nbsp;·&nbsp; <code>████░░░░░░</code> 40% &nbsp;·&nbsp; 2 of 5 done</summary>
+<summary><b>v26.5</b> &nbsp;·&nbsp; due 2026-08-31 &nbsp;·&nbsp; <code>████████░░</code> 80% &nbsp;·&nbsp; 4 of 5 done</summary>
 
 - [ ] [#252](https://github.com/4TUResearchData/djehuty/issues/252) \[DOCUMENTATION\]: OpenAPI for /api/v2 and /api/v3
-- [ ] [#237](https://github.com/4TUResearchData/djehuty/issues/237) \[NEW FEATURE\]: Support custom-style in Djehuty
-- [ ] [#216](https://github.com/4TUResearchData/djehuty/issues/216) \[IMPROVEMENT\]: The UI when selecting "collect" is malformed
+- [x] [#237](https://github.com/4TUResearchData/djehuty/issues/237) \[NEW FEATURE\]: Support custom-style in Djehuty
+- [x] [#216](https://github.com/4TUResearchData/djehuty/issues/216) \[IMPROVEMENT\]: The UI when selecting "collect" is malformed
 - [x] [#213](https://github.com/4TUResearchData/djehuty/issues/213) \[BUG\]: Button label for cite/citation
 - [x] [#165](https://github.com/4TUResearchData/djehuty/issues/165) \[IMPROVEMENT\]: Metadata form: require a minimum number of keywords
 
