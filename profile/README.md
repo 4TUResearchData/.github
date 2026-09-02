@@ -26,19 +26,9 @@ Live progress on the next djehuty releases — full detail on the
 
 <!-- MILESTONES:START -->
 <details open>
-<summary><b>v26.5</b> &nbsp;·&nbsp; due 2026-08-31 &nbsp;·&nbsp; <code>████████░░</code> 80% &nbsp;·&nbsp; 4 of 5 done</summary>
+<summary><b>v26.6</b> &nbsp;·&nbsp; due 2026-09-30 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 4 done</summary>
 
-- [ ] [#252](https://github.com/4TUResearchData/djehuty/issues/252) \[DOCUMENTATION\]: OpenAPI for /api/v2 and /api/v3
-- [x] [#237](https://github.com/4TUResearchData/djehuty/issues/237) \[NEW FEATURE\]: Support custom-style in Djehuty
-- [x] [#216](https://github.com/4TUResearchData/djehuty/issues/216) \[IMPROVEMENT\]: The UI when selecting "collect" is malformed
-- [x] [#213](https://github.com/4TUResearchData/djehuty/issues/213) \[BUG\]: Button label for cite/citation
-- [x] [#165](https://github.com/4TUResearchData/djehuty/issues/165) \[IMPROVEMENT\]: Metadata form: require a minimum number of keywords
-
-</details>
-
-<details>
-<summary><b>v26.6</b> &nbsp;·&nbsp; due 2026-09-30 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 3 done</summary>
-
+- [ ] [#282](https://github.com/4TUResearchData/djehuty/issues/282) \[BUG\]: Manual author records are never matched to existing accounts/authors
 - [ ] [#278](https://github.com/4TUResearchData/djehuty/issues/278) \[IMPROVEMENT\]: add COLLECT button to the physical sample landing page
 - [ ] [#258](https://github.com/4TUResearchData/djehuty/issues/258) \[IMPROVEMENT\]: Make draft dataset deletion recoverable (soft delete)
 - [ ] [#41](https://github.com/4TUResearchData/djehuty/issues/41) \[NEW FEATURE\] Enable registration of physical samples (IGSNs)
