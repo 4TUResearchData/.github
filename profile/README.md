@@ -26,9 +26,8 @@ Live progress on the next djehuty releases — full detail on the
 
 <!-- MILESTONES:START -->
 <details open>
-<summary><b>v26.6</b> &nbsp;·&nbsp; due 2026-09-30 &nbsp;·&nbsp; <code>███░░░░░░░</code> 33% &nbsp;·&nbsp; 2 of 6 done</summary>
+<summary><b>v26.6</b> &nbsp;·&nbsp; due 2026-09-30 &nbsp;·&nbsp; <code>████░░░░░░</code> 40% &nbsp;·&nbsp; 2 of 5 done</summary>
 
-- [ ] [#299](https://github.com/4TUResearchData/djehuty/issues/299) \[NEW FEATURE\]: admin > published datasets > retract | Enable retract all or multiple versions
 - [ ] [#282](https://github.com/4TUResearchData/djehuty/issues/282) \[BUG\]: Manual author records are never matched to existing accounts/authors
 - [x] [#267](https://github.com/4TUResearchData/djehuty/issues/267) \[IMPROVEMENT\]: Add e2e test coverage for S3  (minio/ministack)
 - [ ] [#258](https://github.com/4TUResearchData/djehuty/issues/258) \[IMPROVEMENT\]: Make draft dataset deletion recoverable (soft delete)
@@ -38,9 +37,16 @@ Live progress on the next djehuty releases — full detail on the
 </details>
 
 <details>
-<summary><b>v26.7</b> &nbsp;·&nbsp; due 2026-11-30 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 1 done</summary>
+<summary><b>v26.7</b> &nbsp;·&nbsp; due 2026-11-30 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 2 done</summary>
 
+- [ ] [#299](https://github.com/4TUResearchData/djehuty/issues/299) \[NEW FEATURE\]: admin > published datasets > retract | Enable retract all or multiple versions
 - [ ] [#262](https://github.com/4TUResearchData/djehuty/issues/262) \[IMPROVEMENT\]: Rework usage statistics to avoid overloading Virtuoso
+
+</details>
+
+<details>
+<summary><b>v26.8</b> &nbsp;·&nbsp; due 2026-11-30 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 0 done</summary>
+
 
 </details>
 
