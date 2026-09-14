@@ -37,10 +37,11 @@ Live progress on the next djehuty releases — full detail on the
 </details>
 
 <details>
-<summary><b>v26.7</b> &nbsp;·&nbsp; due 2026-11-30 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 2 done</summary>
+<summary><b>v26.7</b> &nbsp;·&nbsp; due 2026-11-30 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 3 done</summary>
 
 - [ ] [#299](https://github.com/4TUResearchData/djehuty/issues/299) \[NEW FEATURE\]: admin > published datasets > retract | Enable retract all or multiple versions
 - [ ] [#262](https://github.com/4TUResearchData/djehuty/issues/262) \[IMPROVEMENT\]: Rework usage statistics to avoid overloading Virtuoso
+- [ ] [#77](https://github.com/4TUResearchData/djehuty/issues/77) \[BUG\]: Unable to clear 'Derived From' metadata field
 
 </details>
 
