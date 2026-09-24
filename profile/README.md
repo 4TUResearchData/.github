@@ -76,6 +76,7 @@ gantt
 - **Good first issues** — [browse them here](https://github.com/4TUResearchData/djehuty/issues?q=is%3Aopen+label%3A%22🌱+good+first+issue%22).
 - **Security** — report vulnerabilities privately to <security@djehuty.4tu.nl>, not via a public issue. See our [security policy](https://github.com/4TUResearchData/djehuty/blob/main/SECURITY.md).
 - **Governance** — how decisions get made is documented in [GOVERNANCE.md](https://github.com/4TUResearchData/djehuty/blob/main/GOVERNANCE.md).
+- **Community hour** - Join our monthly community call. Find out more on the [djehuty Community](https://djehuty.4tu.nl/community/) webpage. 
 
 <div align="center">
 <sub>4TU.ResearchData is a research infrastructure, community and training provider, led and governed by the four technical universities in the Netherlands.</sub>
