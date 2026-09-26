@@ -26,9 +26,9 @@ Live progress on the next djehuty releases — full detail on the
 
 <!-- MILESTONES:START -->
 <details open>
-<summary><b>v26.6</b> &nbsp;·&nbsp; due 2026-09-30 &nbsp;·&nbsp; <code>████░░░░░░</code> 40% &nbsp;·&nbsp; 2 of 5 done</summary>
+<summary><b>v26.6</b> &nbsp;·&nbsp; due 2026-09-30 &nbsp;·&nbsp; <code>██████░░░░</code> 60% &nbsp;·&nbsp; 3 of 5 done</summary>
 
-- [ ] [#282](https://github.com/4TUResearchData/djehuty/issues/282) \[BUG\]: Manual author records are never matched to existing accounts/authors
+- [x] [#282](https://github.com/4TUResearchData/djehuty/issues/282) \[BUG\]: Manual author records are never matched to existing accounts/authors
 - [x] [#267](https://github.com/4TUResearchData/djehuty/issues/267) \[IMPROVEMENT\]: Add e2e test coverage for S3  (minio/ministack)
 - [ ] [#258](https://github.com/4TUResearchData/djehuty/issues/258) \[IMPROVEMENT\]: Make draft dataset deletion recoverable (soft delete)
 - [x] [#252](https://github.com/4TUResearchData/djehuty/issues/252) \[DOCUMENTATION\]: OpenAPI for /api/v2 and /api/v3
