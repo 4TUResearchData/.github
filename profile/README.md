@@ -36,21 +36,23 @@ Live progress on the next djehuty releases — full detail on the
 </details>
 
 <details>
-<summary><b>v26.7</b> &nbsp;·&nbsp; due 2026-10-02 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 3 done</summary>
+<summary><b>v26.7</b> &nbsp;·&nbsp; due 2026-10-02 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 4 done</summary>
 
 - [ ] [#351](https://github.com/4TUResearchData/djehuty/issues/351) \[BUG\]: Collection editor author edit button calls a function that is not defined
 - [ ] [#350](https://github.com/4TUResearchData/djehuty/issues/350) IGSN: improve API doc request/response body for IGSN (/v3/pythical_sample) endpoints 
+- [ ] [#321](https://github.com/4TUResearchData/djehuty/issues/321) \[NEW FEATURE\]: Remove files from a specific published version (admin)
 - [ ] [#278](https://github.com/4TUResearchData/djehuty/issues/278) \[IMPROVEMENT\]: add COLLECT button to the physical sample landing page
 
 </details>
 
 <details>
-<summary><b>v26.8</b> &nbsp;·&nbsp; due 2026-10-09 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 5 done</summary>
+<summary><b>v26.8</b> &nbsp;·&nbsp; due 2026-10-09 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 6 done</summary>
 
 - [ ] [#349](https://github.com/4TUResearchData/djehuty/issues/349) \[BUG\]: Collection editor drops the ORCID of a manually added author
 - [ ] [#299](https://github.com/4TUResearchData/djehuty/issues/299) \[NEW FEATURE\]: admin > published datasets > retract | Enable retract all or multiple versions
 - [ ] [#262](https://github.com/4TUResearchData/djehuty/issues/262) \[IMPROVEMENT\]: Rework usage statistics to avoid overloading Virtuoso
 - [ ] [#258](https://github.com/4TUResearchData/djehuty/issues/258) \[IMPROVEMENT\]: Make draft dataset deletion recoverable (soft delete)
+- [ ] [#153](https://github.com/4TUResearchData/djehuty/issues/153) \[BUG\]: search bar giving a GATEWAY TIMEOUT error on the first run
 - [ ] [#77](https://github.com/4TUResearchData/djehuty/issues/77) \[BUG\]: Unable to clear 'Derived From' metadata field
 
 </details>
