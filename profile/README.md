@@ -26,21 +26,21 @@ Live progress on the next djehuty releases — full detail on the
 
 <!-- MILESTONES:START -->
 <details open>
-<summary><b>v26.6</b> &nbsp;·&nbsp; due 2026-09-30 &nbsp;·&nbsp; <code>███████░░░</code> 75% &nbsp;·&nbsp; 3 of 4 done</summary>
+<summary><b>v26.6</b> &nbsp;·&nbsp; due 2026-09-30 &nbsp;·&nbsp; <code>██████████</code> 100% &nbsp;·&nbsp; 4 of 4 done</summary>
 
 - [x] [#282](https://github.com/4TUResearchData/djehuty/issues/282) \[BUG\]: Manual author records are never matched to existing accounts/authors
 - [x] [#267](https://github.com/4TUResearchData/djehuty/issues/267) \[IMPROVEMENT\]: Add e2e test coverage for S3  (minio/ministack)
 - [x] [#252](https://github.com/4TUResearchData/djehuty/issues/252) \[DOCUMENTATION\]: OpenAPI for /api/v2 and /api/v3
-- [ ] [#41](https://github.com/4TUResearchData/djehuty/issues/41) \[NEW FEATURE\] Enable registration of physical samples (IGSNs)
+- [x] [#41](https://github.com/4TUResearchData/djehuty/issues/41) \[NEW FEATURE\] Enable registration of physical samples (IGSNs)
 
 </details>
 
 <details>
-<summary><b>v26.7</b> &nbsp;·&nbsp; due 2026-10-02 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 4 done</summary>
+<summary><b>v26.7</b> &nbsp;·&nbsp; due 2026-10-02 &nbsp;·&nbsp; <code>██░░░░░░░░</code> 25% &nbsp;·&nbsp; 1 of 4 done</summary>
 
 - [ ] [#351](https://github.com/4TUResearchData/djehuty/issues/351) \[BUG\]: Collection editor author edit button calls a function that is not defined
 - [ ] [#350](https://github.com/4TUResearchData/djehuty/issues/350) IGSN: improve API doc request/response body for IGSN (/v3/pythical_sample) endpoints 
-- [ ] [#321](https://github.com/4TUResearchData/djehuty/issues/321) \[NEW FEATURE\]: Remove files from a specific published version (admin)
+- [x] [#321](https://github.com/4TUResearchData/djehuty/issues/321) \[NEW FEATURE\]: Remove files from a specific published version (admin)
 - [ ] [#278](https://github.com/4TUResearchData/djehuty/issues/278) \[IMPROVEMENT\]: add COLLECT button to the physical sample landing page
 
 </details>
