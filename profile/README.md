@@ -26,17 +26,7 @@ Live progress on the next djehuty releases — full detail on the
 
 <!-- MILESTONES:START -->
 <details open>
-<summary><b>v26.6</b> &nbsp;·&nbsp; due 2026-09-30 &nbsp;·&nbsp; <code>██████████</code> 100% &nbsp;·&nbsp; 4 of 4 done</summary>
-
-- [x] [#282](https://github.com/4TUResearchData/djehuty/issues/282) \[BUG\]: Manual author records are never matched to existing accounts/authors
-- [x] [#267](https://github.com/4TUResearchData/djehuty/issues/267) \[IMPROVEMENT\]: Add e2e test coverage for S3  (minio/ministack)
-- [x] [#252](https://github.com/4TUResearchData/djehuty/issues/252) \[DOCUMENTATION\]: OpenAPI for /api/v2 and /api/v3
-- [x] [#41](https://github.com/4TUResearchData/djehuty/issues/41) \[NEW FEATURE\] Enable registration of physical samples (IGSNs)
-
-</details>
-
-<details>
-<summary><b>v26.7</b> &nbsp;·&nbsp; due 2026-10-02 &nbsp;·&nbsp; <code>██░░░░░░░░</code> 25% &nbsp;·&nbsp; 1 of 4 done</summary>
+<summary><b>v26.8</b> &nbsp;·&nbsp; due 2026-10-02 &nbsp;·&nbsp; <code>██░░░░░░░░</code> 25% &nbsp;·&nbsp; 1 of 4 done</summary>
 
 - [ ] [#351](https://github.com/4TUResearchData/djehuty/issues/351) \[BUG\]: Collection editor author edit button calls a function that is not defined
 - [ ] [#350](https://github.com/4TUResearchData/djehuty/issues/350) IGSN: improve API doc request/response body for IGSN (/v3/pythical_sample) endpoints 
@@ -46,7 +36,7 @@ Live progress on the next djehuty releases — full detail on the
 </details>
 
 <details>
-<summary><b>v26.8</b> &nbsp;·&nbsp; due 2026-10-09 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 6 done</summary>
+<summary><b>v26.9</b> &nbsp;·&nbsp; due 2026-10-09 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 6 done</summary>
 
 - [ ] [#349](https://github.com/4TUResearchData/djehuty/issues/349) \[BUG\]: Collection editor drops the ORCID of a manually added author
 - [ ] [#299](https://github.com/4TUResearchData/djehuty/issues/299) \[NEW FEATURE\]: admin > published datasets > retract | Enable retract all or multiple versions
@@ -58,7 +48,20 @@ Live progress on the next djehuty releases — full detail on the
 </details>
 
 <details>
-<summary><b>v26.10</b> &nbsp;·&nbsp; due 2026-10-16 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 0 done</summary>
+<summary><b>v26.10</b> &nbsp;·&nbsp; due 2026-10-16 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 1 done</summary>
+
+- [ ] [#285](https://github.com/4TUResearchData/djehuty/issues/285) \[BUG\]: the 'dataset search' option on the EDIT COLLECTION page doesn't work
+
+</details>
+
+<details>
+<summary><b>v26.11</b> &nbsp;·&nbsp; due 2026-10-23 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 0 done</summary>
+
+
+</details>
+
+<details>
+<summary><b>v26.12</b> &nbsp;·&nbsp; due 2026-10-30 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 0 done</summary>
 
 
 </details>
