@@ -26,9 +26,9 @@ Live progress on the next djehuty releases — full detail on the
 
 <!-- MILESTONES:START -->
 <details open>
-<summary><b>v26.8</b> &nbsp;·&nbsp; due 2026-10-02 &nbsp;·&nbsp; <code>██░░░░░░░░</code> 25% &nbsp;·&nbsp; 1 of 4 done</summary>
+<summary><b>v26.8</b> &nbsp;·&nbsp; due 2026-10-02 &nbsp;·&nbsp; <code>█████░░░░░</code> 50% &nbsp;·&nbsp; 2 of 4 done</summary>
 
-- [ ] [#351](https://github.com/4TUResearchData/djehuty/issues/351) \[BUG\]: Collection editor author edit button calls a function that is not defined
+- [x] [#351](https://github.com/4TUResearchData/djehuty/issues/351) \[BUG\]: Collection editor author edit button calls a function that is not defined
 - [ ] [#350](https://github.com/4TUResearchData/djehuty/issues/350) IGSN: improve API doc request/response body for IGSN (/v3/pythical_sample) endpoints 
 - [x] [#321](https://github.com/4TUResearchData/djehuty/issues/321) \[NEW FEATURE\]: Remove files from a specific published version (admin)
 - [ ] [#278](https://github.com/4TUResearchData/djehuty/issues/278) \[IMPROVEMENT\]: add COLLECT button to the physical sample landing page
