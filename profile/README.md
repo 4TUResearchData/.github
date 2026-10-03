@@ -26,20 +26,20 @@ Live progress on the next djehuty releases — full detail on the
 
 <!-- MILESTONES:START -->
 <details open>
-<summary><b>v26.8</b> &nbsp;·&nbsp; due 2026-10-02 &nbsp;·&nbsp; <code>█████░░░░░</code> 50% &nbsp;·&nbsp; 2 of 4 done</summary>
+<summary><b>v26.7.1</b> &nbsp;·&nbsp; due 2026-10-02 &nbsp;·&nbsp; <code>██████████</code> 100% &nbsp;·&nbsp; 3 of 3 done</summary>
 
 - [x] [#351](https://github.com/4TUResearchData/djehuty/issues/351) \[BUG\]: Collection editor author edit button calls a function that is not defined
-- [ ] [#350](https://github.com/4TUResearchData/djehuty/issues/350) IGSN: improve API doc request/response body for IGSN (/v3/pythical_sample) endpoints 
+- [x] [#350](https://github.com/4TUResearchData/djehuty/issues/350) IGSN: improve API doc request/response body for IGSN (/v3/pythical_sample) endpoints 
 - [x] [#321](https://github.com/4TUResearchData/djehuty/issues/321) \[NEW FEATURE\]: Remove files from a specific published version (admin)
-- [ ] [#278](https://github.com/4TUResearchData/djehuty/issues/278) \[IMPROVEMENT\]: add COLLECT button to the physical sample landing page
 
 </details>
 
 <details>
-<summary><b>v26.9</b> &nbsp;·&nbsp; due 2026-10-09 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 6 done</summary>
+<summary><b>v26.8</b> &nbsp;·&nbsp; due 2026-10-09 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 7 done</summary>
 
 - [ ] [#349](https://github.com/4TUResearchData/djehuty/issues/349) \[BUG\]: Collection editor drops the ORCID of a manually added author
 - [ ] [#299](https://github.com/4TUResearchData/djehuty/issues/299) \[NEW FEATURE\]: admin > published datasets > retract | Enable retract all or multiple versions
+- [ ] [#278](https://github.com/4TUResearchData/djehuty/issues/278) \[IMPROVEMENT\]: add COLLECT button to the physical sample landing page
 - [ ] [#262](https://github.com/4TUResearchData/djehuty/issues/262) \[IMPROVEMENT\]: Rework usage statistics to avoid overloading Virtuoso
 - [ ] [#258](https://github.com/4TUResearchData/djehuty/issues/258) \[IMPROVEMENT\]: Make draft dataset deletion recoverable (soft delete)
 - [ ] [#153](https://github.com/4TUResearchData/djehuty/issues/153) \[BUG\]: search bar giving a GATEWAY TIMEOUT error on the first run
@@ -48,20 +48,20 @@ Live progress on the next djehuty releases — full detail on the
 </details>
 
 <details>
-<summary><b>v26.10</b> &nbsp;·&nbsp; due 2026-10-16 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 1 done</summary>
+<summary><b>v26.8.1</b> &nbsp;·&nbsp; due 2026-10-16 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 1 done</summary>
 
 - [ ] [#285](https://github.com/4TUResearchData/djehuty/issues/285) \[BUG\]: the 'dataset search' option on the EDIT COLLECTION page doesn't work
 
 </details>
 
 <details>
-<summary><b>v26.11</b> &nbsp;·&nbsp; due 2026-10-23 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 0 done</summary>
+<summary><b>v26.9</b> &nbsp;·&nbsp; due 2026-10-23 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 0 done</summary>
 
 
 </details>
 
 <details>
-<summary><b>v26.12</b> &nbsp;·&nbsp; due 2026-10-30 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 0 done</summary>
+<summary><b>v26.9.1</b> &nbsp;·&nbsp; due 2026-10-30 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 0 done</summary>
 
 
 </details>
