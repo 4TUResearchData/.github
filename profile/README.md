@@ -26,42 +26,43 @@ Live progress on the next djehuty releases — full detail on the
 
 <!-- MILESTONES:START -->
 <details open>
-<summary><b>v26.8.1</b> &nbsp;·&nbsp; due 2026-10-09 &nbsp;·&nbsp; <code>██████████</code> 100% &nbsp;·&nbsp; 2 of 2 done</summary>
+<summary><b>v26.8.1</b> &nbsp;·&nbsp; due 2026-10-13 &nbsp;·&nbsp; <code>██████████</code> 100% &nbsp;·&nbsp; 5 of 5 done</summary>
 
 - [x] [#396](https://github.com/4TUResearchData/djehuty/issues/396) \[BUG\]: Subject/category views do not match
-- [x] [#164](https://github.com/4TUResearchData/djehuty/issues/164) \[IMPROVEMENT\]: Metadata form: Rephrase File deposit as Dataset
-
-</details>
-
-<details>
-<summary><b>v26.9</b> &nbsp;·&nbsp; due 2026-10-16 &nbsp;·&nbsp; <code>███░░░░░░░</code> 33% &nbsp;·&nbsp; 2 of 6 done</summary>
-
-- [ ] [#349](https://github.com/4TUResearchData/djehuty/issues/349) \[BUG\]: Collection editor drops the ORCID of a manually added author
-- [ ] [#299](https://github.com/4TUResearchData/djehuty/issues/299) \[NEW FEATURE\]: admin > published datasets > retract | Enable retract all or multiple versions
 - [x] [#278](https://github.com/4TUResearchData/djehuty/issues/278) \[IMPROVEMENT\]: add COLLECT button to the physical sample landing page
-- [ ] [#258](https://github.com/4TUResearchData/djehuty/issues/258) \[IMPROVEMENT\]: Make draft dataset deletion recoverable (soft delete)
-- [ ] [#153](https://github.com/4TUResearchData/djehuty/issues/153) \[BUG\]: search bar giving a GATEWAY TIMEOUT error on the first run
+- [x] [#164](https://github.com/4TUResearchData/djehuty/issues/164) \[IMPROVEMENT\]: Metadata form: Rephrase File deposit as Dataset
+- [x] [#145](https://github.com/4TUResearchData/djehuty/issues/145) \[IMPROVEMENT\]: Lint  `src/djehuty/web/formatter.py`
 - [x] [#77](https://github.com/4TUResearchData/djehuty/issues/77) \[BUG\]: Unable to clear 'Derived From' metadata field
 
 </details>
 
 <details>
-<summary><b>v26.10</b> &nbsp;·&nbsp; due 2026-10-23 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 1 done</summary>
+<summary><b>v26.9</b> &nbsp;·&nbsp; due 2026-10-20 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 3 done</summary>
+
+- [ ] [#349](https://github.com/4TUResearchData/djehuty/issues/349) \[BUG\]: Collection editor drops the ORCID of a manually added author
+- [ ] [#299](https://github.com/4TUResearchData/djehuty/issues/299) \[NEW FEATURE\]: admin > published datasets > retract | Enable retract all or multiple versions
+- [ ] [#258](https://github.com/4TUResearchData/djehuty/issues/258) \[IMPROVEMENT\]: Make draft dataset deletion recoverable (soft delete)
+
+</details>
+
+<details>
+<summary><b>v26.10</b> &nbsp;·&nbsp; due 2026-10-27 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 1 done</summary>
 
 - [ ] [#285](https://github.com/4TUResearchData/djehuty/issues/285) \[BUG\]: the 'dataset search' option on the EDIT COLLECTION page doesn't work
 
 </details>
 
 <details>
-<summary><b>v26.11</b> &nbsp;·&nbsp; due 2026-10-30 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 0 done</summary>
+<summary><b>v26.11</b> &nbsp;·&nbsp; due 2026-11-03 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 0 done</summary>
 
 
 </details>
 
 <details>
-<summary><b>v26.12</b> &nbsp;·&nbsp; due 2026-11-06 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 1 done</summary>
+<summary><b>v26.12</b> &nbsp;·&nbsp; due 2026-11-10 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 2 done</summary>
 
 - [ ] [#262](https://github.com/4TUResearchData/djehuty/issues/262) \[IMPROVEMENT\]: Rework usage statistics to avoid overloading Virtuoso
+- [ ] [#153](https://github.com/4TUResearchData/djehuty/issues/153) \[BUG\]: search bar giving a GATEWAY TIMEOUT error on the first run
 
 </details>
 
