@@ -26,35 +26,32 @@ Live progress on the next djehuty releases — full detail on the
 
 <!-- MILESTONES:START -->
 <details open>
-<summary><b>v26.8.1</b> &nbsp;·&nbsp; due 2026-10-13 &nbsp;·&nbsp; <code>██████████</code> 100% &nbsp;·&nbsp; 5 of 5 done</summary>
+<summary><b>v26.9</b> &nbsp;·&nbsp; due 2026-10-20 &nbsp;·&nbsp; <code>█░░░░░░░░░</code> 11% &nbsp;·&nbsp; 1 of 9 done</summary>
 
-- [x] [#396](https://github.com/4TUResearchData/djehuty/issues/396) \[BUG\]: Subject/category views do not match
-- [x] [#278](https://github.com/4TUResearchData/djehuty/issues/278) \[IMPROVEMENT\]: add COLLECT button to the physical sample landing page
-- [x] [#164](https://github.com/4TUResearchData/djehuty/issues/164) \[IMPROVEMENT\]: Metadata form: Rephrase File deposit as Dataset
-- [x] [#145](https://github.com/4TUResearchData/djehuty/issues/145) \[IMPROVEMENT\]: Lint  `src/djehuty/web/formatter.py`
-- [x] [#77](https://github.com/4TUResearchData/djehuty/issues/77) \[BUG\]: Unable to clear 'Derived From' metadata field
-
-</details>
-
-<details>
-<summary><b>v26.9</b> &nbsp;·&nbsp; due 2026-10-20 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 3 done</summary>
-
-- [ ] [#349](https://github.com/4TUResearchData/djehuty/issues/349) \[BUG\]: Collection editor drops the ORCID of a manually added author
+- [ ] [#423](https://github.com/4TUResearchData/djehuty/issues/423) \[BUG\]: Help icons do not open on touch devices in the physical sample form
+- [ ] [#399](https://github.com/4TUResearchData/djehuty/issues/399) \[BUG\]: Admin > Update Published Datesets > Licenses does not update Datacite metadata
+- [ ] [#348](https://github.com/4TUResearchData/djehuty/issues/348) \[BUG\]: `insert_collection` writes the collection's `djht:datasets` list twice
+- [x] [#341](https://github.com/4TUResearchData/djehuty/issues/341) \[DOCUMENTATION\\\]: Update `djehuty` documentation to reference the community website
+- [ ] [#330](https://github.com/4TUResearchData/djehuty/issues/330) \[BUG\]: Notification banner and action bar are not pinned to the viewport in the physical sample form
 - [ ] [#299](https://github.com/4TUResearchData/djehuty/issues/299) \[NEW FEATURE\]: admin > published datasets > retract | Enable retract all or multiple versions
 - [ ] [#258](https://github.com/4TUResearchData/djehuty/issues/258) \[IMPROVEMENT\]: Make draft dataset deletion recoverable (soft delete)
+- [ ] [#196](https://github.com/4TUResearchData/djehuty/issues/196) \[BUG\]: "Saved changes" notification shown in red when appended to an existing error notification
+- [ ] [#146](https://github.com/4TUResearchData/djehuty/issues/146) \[IMPROVEMENT\]: Lint `src/djehuty/web/validator.py`
 
 </details>
 
 <details>
-<summary><b>v26.10</b> &nbsp;·&nbsp; due 2026-10-27 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 1 done</summary>
+<summary><b>v26.10</b> &nbsp;·&nbsp; due 2026-10-27 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 2 done</summary>
 
+- [ ] [#374](https://github.com/4TUResearchData/djehuty/issues/374) \[BUG\]: Preview on a physical sample builds an invalid expiry date on the last day of a month
 - [ ] [#285](https://github.com/4TUResearchData/djehuty/issues/285) \[BUG\]: the 'dataset search' option on the EDIT COLLECTION page doesn't work
 
 </details>
 
 <details>
-<summary><b>v26.11</b> &nbsp;·&nbsp; due 2026-11-03 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 0 done</summary>
+<summary><b>v26.11</b> &nbsp;·&nbsp; due 2026-11-03 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 1 done</summary>
 
+- [ ] [#349](https://github.com/4TUResearchData/djehuty/issues/349) \[BUG\]: Collection editor drops the ORCID of a manually added author
 
 </details>
 
