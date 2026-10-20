@@ -26,17 +26,17 @@ Live progress on the next djehuty releases — full detail on the
 
 <!-- MILESTONES:START -->
 <details open>
-<summary><b>v26.9</b> &nbsp;·&nbsp; due 2026-10-20 &nbsp;·&nbsp; <code>█░░░░░░░░░</code> 11% &nbsp;·&nbsp; 1 of 9 done</summary>
+<summary><b>v26.9</b> &nbsp;·&nbsp; due 2026-10-20 &nbsp;·&nbsp; <code>██████░░░░</code> 66% &nbsp;·&nbsp; 6 of 9 done</summary>
 
-- [ ] [#423](https://github.com/4TUResearchData/djehuty/issues/423) \[BUG\]: Help icons do not open on touch devices in the physical sample form
+- [x] [#423](https://github.com/4TUResearchData/djehuty/issues/423) \[BUG\]: Help icons do not open on touch devices in the physical sample form
 - [ ] [#399](https://github.com/4TUResearchData/djehuty/issues/399) \[BUG\]: Admin > Update Published Datesets > Licenses does not update Datacite metadata
-- [ ] [#348](https://github.com/4TUResearchData/djehuty/issues/348) \[BUG\]: `insert_collection` writes the collection's `djht:datasets` list twice
+- [x] [#348](https://github.com/4TUResearchData/djehuty/issues/348) \[BUG\]: `insert_collection` writes the collection's `djht:datasets` list twice
 - [x] [#341](https://github.com/4TUResearchData/djehuty/issues/341) \[DOCUMENTATION\\\]: Update `djehuty` documentation to reference the community website
-- [ ] [#330](https://github.com/4TUResearchData/djehuty/issues/330) \[BUG\]: Notification banner and action bar are not pinned to the viewport in the physical sample form
+- [x] [#330](https://github.com/4TUResearchData/djehuty/issues/330) \[BUG\]: Notification banner and action bar are not pinned to the viewport in the physical sample form
 - [ ] [#299](https://github.com/4TUResearchData/djehuty/issues/299) \[NEW FEATURE\]: admin > published datasets > retract | Enable retract all or multiple versions
 - [ ] [#258](https://github.com/4TUResearchData/djehuty/issues/258) \[IMPROVEMENT\]: Make draft dataset deletion recoverable (soft delete)
-- [ ] [#196](https://github.com/4TUResearchData/djehuty/issues/196) \[BUG\]: "Saved changes" notification shown in red when appended to an existing error notification
-- [ ] [#146](https://github.com/4TUResearchData/djehuty/issues/146) \[IMPROVEMENT\]: Lint `src/djehuty/web/validator.py`
+- [x] [#196](https://github.com/4TUResearchData/djehuty/issues/196) \[BUG\]: "Saved changes" notification shown in red when appended to an existing error notification
+- [x] [#146](https://github.com/4TUResearchData/djehuty/issues/146) \[IMPROVEMENT\]: Lint `src/djehuty/web/validator.py`
 
 </details>
 
