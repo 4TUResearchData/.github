@@ -41,9 +41,9 @@ Live progress on the next djehuty releases — full detail on the
 </details>
 
 <details>
-<summary><b>v26.10</b> &nbsp;·&nbsp; due 2026-10-27 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 2 done</summary>
+<summary><b>v26.10</b> &nbsp;·&nbsp; due 2026-10-27 &nbsp;·&nbsp; <code>█████░░░░░</code> 50% &nbsp;·&nbsp; 1 of 2 done</summary>
 
-- [ ] [#374](https://github.com/4TUResearchData/djehuty/issues/374) \[BUG\]: Preview on a physical sample builds an invalid expiry date on the last day of a month
+- [x] [#374](https://github.com/4TUResearchData/djehuty/issues/374) \[BUG\]: Preview on a physical sample builds an invalid expiry date on the last day of a month
 - [ ] [#285](https://github.com/4TUResearchData/djehuty/issues/285) \[BUG\]: the 'dataset search' option on the EDIT COLLECTION page doesn't work
 
 </details>
