@@ -26,29 +26,9 @@ Live progress on the next djehuty releases — full detail on the
 
 <!-- MILESTONES:START -->
 <details open>
-<summary><b>v26.8.2</b> &nbsp;·&nbsp; due 2026-10-20 &nbsp;·&nbsp; <code>██████████</code> 100% &nbsp;·&nbsp; 6 of 6 done</summary>
+<summary><b>v26.9</b> &nbsp;·&nbsp; due 2026-11-03 &nbsp;·&nbsp; <code>██░░░░░░░░</code> 20% &nbsp;·&nbsp; 1 of 5 done</summary>
 
-- [x] [#423](https://github.com/4TUResearchData/djehuty/issues/423) \[BUG\]: Help icons do not open on touch devices in the physical sample form
-- [x] [#348](https://github.com/4TUResearchData/djehuty/issues/348) \[BUG\]: `insert_collection` writes the collection's `djht:datasets` list twice
-- [x] [#341](https://github.com/4TUResearchData/djehuty/issues/341) \[DOCUMENTATION\\\]: Update `djehuty` documentation to reference the community website
-- [x] [#330](https://github.com/4TUResearchData/djehuty/issues/330) \[BUG\]: Notification banner and action bar are not pinned to the viewport in the physical sample form
-- [x] [#196](https://github.com/4TUResearchData/djehuty/issues/196) \[BUG\]: "Saved changes" notification shown in red when appended to an existing error notification
-- [x] [#146](https://github.com/4TUResearchData/djehuty/issues/146) \[IMPROVEMENT\]: Lint `src/djehuty/web/validator.py`
-
-</details>
-
-<details>
-<summary><b>v26.10</b> &nbsp;·&nbsp; due 2026-10-27 &nbsp;·&nbsp; <code>█████░░░░░</code> 50% &nbsp;·&nbsp; 1 of 2 done</summary>
-
-- [x] [#374](https://github.com/4TUResearchData/djehuty/issues/374) \[BUG\]: Preview on a physical sample builds an invalid expiry date on the last day of a month
-- [ ] [#285](https://github.com/4TUResearchData/djehuty/issues/285) \[BUG\]: the 'dataset search' option on the EDIT COLLECTION page doesn't work
-
-</details>
-
-<details>
-<summary><b>v26.9</b> &nbsp;·&nbsp; due 2026-10-27 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 5 done</summary>
-
-- [ ] [#442](https://github.com/4TUResearchData/djehuty/issues/442) \[BUG\]: Associated peer-reviewed publication field empty
+- [x] [#442](https://github.com/4TUResearchData/djehuty/issues/442) \[BUG\]: Associated peer-reviewed publication field empty
 - [ ] [#399](https://github.com/4TUResearchData/djehuty/issues/399) \[BUG\]: Admin > Update Published Datesets > Licenses does not update Datacite metadata
 - [ ] [#299](https://github.com/4TUResearchData/djehuty/issues/299) \[NEW FEATURE\]: admin > published datasets > retract | Enable retract all or multiple versions
 - [ ] [#258](https://github.com/4TUResearchData/djehuty/issues/258) \[IMPROVEMENT\]: Make draft dataset deletion recoverable (soft delete)
@@ -57,14 +37,21 @@ Live progress on the next djehuty releases — full detail on the
 </details>
 
 <details>
-<summary><b>v26.11</b> &nbsp;·&nbsp; due 2026-11-03 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 1 done</summary>
+<summary><b>v26.10</b> &nbsp;·&nbsp; due 2026-11-10 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 1 done</summary>
+
+- [ ] [#285](https://github.com/4TUResearchData/djehuty/issues/285) \[BUG\]: the 'dataset search' option on the EDIT COLLECTION page doesn't work
+
+</details>
+
+<details>
+<summary><b>v26.11</b> &nbsp;·&nbsp; due 2026-11-17 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 1 done</summary>
 
 - [ ] [#349](https://github.com/4TUResearchData/djehuty/issues/349) \[BUG\]: Collection editor drops the ORCID of a manually added author
 
 </details>
 
 <details>
-<summary><b>v26.12</b> &nbsp;·&nbsp; due 2026-11-10 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 2 done</summary>
+<summary><b>v26.12</b> &nbsp;·&nbsp; due 2026-11-24 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 2 done</summary>
 
 - [ ] [#262](https://github.com/4TUResearchData/djehuty/issues/262) \[IMPROVEMENT\]: Rework usage statistics to avoid overloading Virtuoso
 - [ ] [#153](https://github.com/4TUResearchData/djehuty/issues/153) \[BUG\]: search bar giving a GATEWAY TIMEOUT error on the first run
