@@ -37,9 +37,9 @@ Live progress on the next djehuty releases — full detail on the
 </details>
 
 <details>
-<summary><b>v26.10</b> &nbsp;·&nbsp; due 2026-11-10 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 1 done</summary>
+<summary><b>v26.10</b> &nbsp;·&nbsp; due 2026-11-10 &nbsp;·&nbsp; <code>██████████</code> 100% &nbsp;·&nbsp; 1 of 1 done</summary>
 
-- [ ] [#285](https://github.com/4TUResearchData/djehuty/issues/285) \[BUG\]: the 'dataset search' option on the EDIT COLLECTION page doesn't work
+- [x] [#285](https://github.com/4TUResearchData/djehuty/issues/285) \[BUG\]: the 'dataset search' option on the EDIT COLLECTION page doesn't work
 
 </details>
 
