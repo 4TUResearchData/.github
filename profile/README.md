@@ -26,11 +26,10 @@ Live progress on the next djehuty releases — full detail on the
 
 <!-- MILESTONES:START -->
 <details open>
-<summary><b>v26.9</b> &nbsp;·&nbsp; due 2026-11-03 &nbsp;·&nbsp; <code>████████░░</code> 80% &nbsp;·&nbsp; 4 of 5 done</summary>
+<summary><b>v26.9</b> &nbsp;·&nbsp; due 2026-11-03 &nbsp;·&nbsp; <code>██████████</code> 100% &nbsp;·&nbsp; 4 of 4 done</summary>
 
 - [x] [#442](https://github.com/4TUResearchData/djehuty/issues/442) \[BUG\]: Associated peer-reviewed publication field empty
 - [x] [#399](https://github.com/4TUResearchData/djehuty/issues/399) \[BUG\]: Admin > Update Published Datesets > Licenses does not update Datacite metadata
-- [ ] [#299](https://github.com/4TUResearchData/djehuty/issues/299) \[NEW FEATURE\]: admin > published datasets > retract | Enable retract all or multiple versions
 - [x] [#258](https://github.com/4TUResearchData/djehuty/issues/258) \[IMPROVEMENT\]: Make draft dataset deletion recoverable (soft delete)
 - [x] [#147](https://github.com/4TUResearchData/djehuty/issues/147) \[IMPROVEMENT\]: Lint `src/djehuty/web/ui.py`
 
@@ -44,9 +43,10 @@ Live progress on the next djehuty releases — full detail on the
 </details>
 
 <details>
-<summary><b>v26.11</b> &nbsp;·&nbsp; due 2026-11-17 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 1 done</summary>
+<summary><b>v26.11</b> &nbsp;·&nbsp; due 2026-11-17 &nbsp;·&nbsp; <code>░░░░░░░░░░</code> 0% &nbsp;·&nbsp; 0 of 2 done</summary>
 
 - [ ] [#349](https://github.com/4TUResearchData/djehuty/issues/349) \[BUG\]: Collection editor drops the ORCID of a manually added author
+- [ ] [#299](https://github.com/4TUResearchData/djehuty/issues/299) \[NEW FEATURE\]: admin > published datasets > retract | Enable retract all or multiple versions
 
 </details>
 
