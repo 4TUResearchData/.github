@@ -19,7 +19,7 @@
 | **[djehuty](https://github.com/4TUResearchData/djehuty)** | The repository system powering 4TU.ResearchData and Nikhef | [![Release](https://img.shields.io/github/v/release/4TUResearchData/djehuty?label=&color=0a7bbb)](https://github.com/4TUResearchData/djehuty/releases) |
 ---
 
-## Roadmap
+## Release schedule
 
 Live progress on the next djehuty releases — full detail on the
 **[milestones board →](https://github.com/4TUResearchData/djehuty/milestones)**
