@@ -26,16 +26,6 @@ Live progress on the next djehuty releases — full detail on the
 
 <!-- MILESTONES:START -->
 <details open>
-<summary><b>v26.9</b> &nbsp;·&nbsp; due 2026-11-03 &nbsp;·&nbsp; <code>██████████</code> 100% &nbsp;·&nbsp; 4 of 4 done</summary>
-
-- [x] [#442](https://github.com/4TUResearchData/djehuty/issues/442) \[BUG\]: Associated peer-reviewed publication field empty
-- [x] [#399](https://github.com/4TUResearchData/djehuty/issues/399) \[BUG\]: Admin > Update Published Datesets > Licenses does not update Datacite metadata
-- [x] [#258](https://github.com/4TUResearchData/djehuty/issues/258) \[IMPROVEMENT\]: Make draft dataset deletion recoverable (soft delete)
-- [x] [#147](https://github.com/4TUResearchData/djehuty/issues/147) \[IMPROVEMENT\]: Lint `src/djehuty/web/ui.py`
-
-</details>
-
-<details>
 <summary><b>v26.10</b> &nbsp;·&nbsp; due 2026-11-10 &nbsp;·&nbsp; <code>██████████</code> 100% &nbsp;·&nbsp; 1 of 1 done</summary>
 
 - [x] [#285](https://github.com/4TUResearchData/djehuty/issues/285) \[BUG\]: the 'dataset search' option on the EDIT COLLECTION page doesn't work
